@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Iulia Vasile | Personal Website</title>
+    <title>Contact Me | Your Name</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -26,21 +26,30 @@
         </nav>
     </header>
     <main>
-        <section class="hero" id="home">
-            <div class="container hero-content">
-                <div class="hero-text">
-                    <h1>Hi, I'm <span class="highlight">Iulia Vasile</span></h1>
-                    <p class="subtitle">Welcome to my personal website! I'm passionate about technology, web development, and continuous learning. I'm always open to new opportunities and challenges as I grow my skills and experience.</p>
-                </div>
-                <div class="hero-image">
-                    <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=600&q=80" alt="Modern workspace with laptop and coffee" />
-                </div>
+        <section class="contact" id="contact">
+            <div class="container">
+                <h2>Contact Me</h2>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-button">Send Message</button>
+                </form>
             </div>
         </section>
     </main>
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2025 Iulia Vasile. All rights reserved.</p>
+            <p>&copy; 2025 Your Name. All rights reserved.</p>
         </div>
     </footer>
 </body>
