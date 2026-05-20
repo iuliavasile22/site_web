@@ -448,6 +448,7 @@ li {
 .contact-form {
   max-width: 500px;
   margin: 2rem auto 0 auto;
+  margin-bottom: 3rem;
   background: #fff;
   border-radius: var(--radius);
   box-shadow: var(--shadow);
@@ -463,6 +464,10 @@ li {
   margin-bottom: 0.5rem;
   font-weight: 600;
   color: var(--primary-color);
+}
+
+.popup-modal {
+  display: none;
 }
 
 input,
@@ -525,21 +530,7 @@ textarea {
   border-top: 2.5px solid #f472b6;
   box-shadow: 0 -2px 16px rgba(30, 41, 59, 0.1);
 }
-.footer .container {
-  background: #181a20;
-  box-shadow: none;
-  border-radius: 0;
-  max-width: 100%;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  color: #f9fafb;
-  text-shadow:
-    0 1px 8px rgba(37, 99, 235, 0.12),
-    0 1px 0 #000;
-  text-align: center;
-  display: block;
-}
+
 .footer .container p {
   color: #f472b6;
   margin: 0;
