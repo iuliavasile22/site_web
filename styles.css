@@ -6,8 +6,8 @@
 }
 
 :root {
-  --primary-color: #2563eb;
-  --accent-color: #f472b6;
+  --primary-color: #1e3a8a;
+  --accent-color: #818cf8;
   --text-color: #1f2937;
   --background-color: #f8fafc;
   --secondary-background: #fff;
@@ -25,7 +25,6 @@ body {
   min-height: 100vh;
 }
 
-/* Typography */
 h1,
 h2,
 h3 {
@@ -517,23 +516,17 @@ textarea {
 
 /* Footer */
 .footer {
-  background: #23272f;
-  color: #f9fafb;
-  width: 100%;
-  padding: 1.7rem 0 1.3rem 0;
-  position: relative;
-  margin-top: auto;
+  background: #172554;
+  color: #f1f5f9;
+  border-top: none;
+  padding: 1.5rem 0;
   text-align: center;
-  font-size: 1.18rem;
-  letter-spacing: 0.04em;
-  font-weight: 600;
-  border-top: 2.5px solid #f472b6;
-  box-shadow: 0 -2px 16px rgba(30, 41, 59, 0.1);
 }
 
 .footer .container p {
-  color: #f472b6;
+  color: #e2e8f0;
   margin: 0;
+  font-family: "Montserrat", sans-serif;
   font-weight: 600;
   letter-spacing: 0.04em;
 }
@@ -547,10 +540,17 @@ responsive code
     padding: 0 1rem;
   }
   .hero-content {
-    flex-direction: column;
-    gap: 2.5rem;
-    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
   }
+
+  .hero-text {
+    text-align: center;
+    max-width: 700px;
+  }
+
   .about-content {
     flex-direction: column;
     gap: 2.5rem;
